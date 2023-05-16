@@ -1,0 +1,102 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  }
+  
+  .registerTitle {
+    font-size: 50px;
+  }
+  
+  .registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerForm > label {
+    margin: 10px 0;
+  }
+  
+  .registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .registerInput:focus {
+    outline: none;
+  }
+  
+  .registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  } 
+
+  .file-upload-label {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .file-upload-input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+   /* .custom-file-upload {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .custom-file-upload{
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }  */
+
+  /* #file {
+    justify-content: center;
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 50%;
+  } */
